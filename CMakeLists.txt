@@ -13,6 +13,8 @@ if(NOT hasParent)
 	endif()
 	INIT_AL2O3(${CMAKE_CURRENT_SOURCE_DIR})
 endif ()
+SET_MIN_VERSIONS()
+
 set(ProjectName console_app_al2o3_template)
 project(${ProjectName})
 
